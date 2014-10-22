@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#80FFFFFF"
+        android:onClick="startGame"
+        android:text="@string/start_game"
+        android:textColor="#00FF00" />
+
+    <Button
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#80FFFFFF"
+        android:onClick="gameInstructions"
+        android:text="@string/game_instr"
+        android:textColor="#00FF00" />
+
+    <Button
+        android:id="@+id/gameAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#80FFFFFF"
+        android:onClick="gameAbout"
+        android:text="@string/action_about"
+        android:textColor="#00FF00" />
+
+</LinearLayout>

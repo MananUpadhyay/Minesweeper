@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.minesweeper.MinesweeperActivity" >
+
+    <item
+        android:id="@+id/restartGame"
+        android:icon="@drawable/arrow_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/restart_game"/>
+
+</menu>

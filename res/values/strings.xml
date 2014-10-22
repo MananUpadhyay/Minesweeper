@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minesweeper</string>
+    <string name="action_about">About</string>
+    <string name="QF">Select Q of F</string>
+    <string name="flag">F</string>
+    <string name="question_mark">\u003F</string>
+    <string name="restart_game">Restart Game</string>
+    <string name="start_game">Start Game</string>
+    <string name="game_instr">How to Play</string>
+    <string name="instructions"> 1. Tap a Tile to uncover the number of adjacent mines. \n\n
+        						 2. Long Press a Tile to place a Question Mark(?) or a Flag(F)). Repeat the same to remove. \n\n
+        						 3. You are entitled to 3 Cheats that flag tiles containing mines, use them wisely. \n</string>
+    <string name="cheat">Cheat</string>
+
+</resources>

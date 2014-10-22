@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50FFFFFF" >
+
+    <TextView
+        android:id="@+id/popup_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/popupF"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/QF" />
+
+    <Button
+        android:id="@+id/popupQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/popup_tv"
+        android:background="#FFFFFF"
+        android:text="@string/question_mark"
+        android:textColor="#2ecc71" />
+
+    <Button
+        android:id="@+id/popupF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popup_tv"
+        android:layout_toRightOf="@+id/popupQ"
+        android:background="#FFFFFF"
+        android:text="@string/flag"
+        android:textColor="#2ecc71" />
+
+</RelativeLayout>
